@@ -20,10 +20,7 @@ const MovieItem = props => {
         className="popup-content"
       >
         {close => (
-          <div
-            //   testid="closeButton"
-            className="modal-container"
-          >
+          <div className="modal-container">
             <button
               className="close-button"
               type="button"
